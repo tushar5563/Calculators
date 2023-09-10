@@ -36,7 +36,7 @@ this.currentOperand=''
                 computation=current+prev;
                 break;
                 case '-':
-                computation=current-prev;
+                computation=prev-current;
                 break;
                 case '*':
                 computation=current*prev;
